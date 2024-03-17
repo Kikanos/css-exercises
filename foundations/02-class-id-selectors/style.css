@@ -1,19 +1,25 @@
-.odd-number {
-  background-color: pink;
-  font-family: Verdana, "DejaVu Sans", sans-serif;
+* {
 }
 
-#second-element {
-  color: blue;
-  font-size: 36px;
+ul {
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
 }
 
-.cool {
-  font-size: 24px;
+.links-list a {
+  background-color: rgb(179 57 81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
 }
 
-#fourth-element {
-  background-color: lightgreen;
-  font-size: 24px;
-  font-weight: bold;
+& ul li {
+  list-style: none;
+}
+
+.links-list a:hover {
+  background-color: rgb(66 28 40);
+  color: #fff;
 }
